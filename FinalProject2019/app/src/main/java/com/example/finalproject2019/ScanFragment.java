@@ -244,7 +244,7 @@ public class ScanFragment extends Fragment {
         tryAgain.setVisibility(View.INVISIBLE);
 
         Vision.Builder visionBuilder = new Vision.Builder(new NetHttpTransport(),new AndroidJsonFactory(),null);
-        visionBuilder.setVisionRequestInitializer(new VisionRequestInitializer("AIzaSyAt19s5yMv9LCXr4oSKBaM_PupUJZHAlqo"));
+        visionBuilder.setVisionRequestInitializer(new VisionRequestInitializer("API Key"));
         vision = visionBuilder.build();
 
         result = "Processing...";
