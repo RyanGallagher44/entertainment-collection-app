@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan_layout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan" />
+        <item
+            android:id="@+id/nav_games_layout"
+            android:icon="@drawable/controller"
+            android:title="Video Games" />
+        <item
+            android:id="@+id/nav_movies_layout"
+            android:icon="@drawable/filmreel"
+            android:title="Movies" />
+        <item
+            android:id="@+id/nav_books_layout"
+            android:icon="@drawable/books"
+            android:title="Books" />
+    </group>
+
+</menu>
